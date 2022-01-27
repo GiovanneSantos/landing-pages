@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.menu-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.menu-image {
+  height: 72px;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 32px;
+}
+
+.menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 24px;
+}
+
+.principal-content {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-content-write {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.main-content-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #ecd6c4;
+}
+
+.main-content-sub-title {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+
+.main-content-button {
+  background-color: #ecd6c4;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+.main-content-button:hover {
+  height: 90px;
+}
+
+.secundary-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.secundary-content-title {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2ef;
+  margin-bottom: 16px;
+}
+
+.secundary-content-paragraph {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ecd6c4;
+}
+
+.footer-config {
+  padding: 32px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.image-footer {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
